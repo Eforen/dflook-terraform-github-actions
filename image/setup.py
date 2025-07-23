@@ -20,9 +20,9 @@ setup(
         ]
     },
     install_requires=[
-        'requests',
-        'requests-cache',
-        'python-hcl2',
-        'canonicaljson'
+        'requests==2.28.1',
+        'requests-cache==1.2.1',
+        'python-hcl2==7.2.1',
+        'canonicaljson==2.0.0'
     ]
 )
